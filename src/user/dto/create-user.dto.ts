@@ -18,7 +18,4 @@ export class CreateUserDTO {
     })
     senha: string;
 
-    @IsNumber()
-    numero: number;
-
 }
